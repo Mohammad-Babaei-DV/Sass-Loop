@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+main > section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+main > section:first-of-type {
+  background-image: url("img/back.jpg");
+  background-size: cover;
+}
+main > section:last-of-type {
+  display: flex;
+}
+main > section:last-of-type > div {
+  flex-grow: 1;
+  background-image: url(img/front.jpg);
+  opacity: 0;
+  transition: 1.3s;
+}
+main > section:last-of-type > div:hover {
+  opacity: 1;
+  transition: 0s;
+}
+main > section:last-of-type > div:nth-of-type(1) {
+  background-position-x: 0%;
+}
+main > section:last-of-type > div:nth-of-type(2) {
+  background-position-x: 3.7%;
+}
+main > section:last-of-type > div:nth-of-type(3) {
+  background-position-x: 7.4%;
+}
+main > section:last-of-type > div:nth-of-type(4) {
+  background-position-x: 11.1%;
+}
+main > section:last-of-type > div:nth-of-type(5) {
+  background-position-x: 14.8%;
+}
+main > section:last-of-type > div:nth-of-type(6) {
+  background-position-x: 18.5%;
+}
+main > section:last-of-type > div:nth-of-type(7) {
+  background-position-x: 22.2%;
+}
+main > section:last-of-type > div:nth-of-type(8) {
+  background-position-x: 25.9%;
+}
+main > section:last-of-type > div:nth-of-type(9) {
+  background-position-x: 29.6%;
+}
+main > section:last-of-type > div:nth-of-type(10) {
+  background-position-x: 33.3%;
+}
+main > section:last-of-type > div:nth-of-type(11) {
+  background-position-x: 37%;
+}
+main > section:last-of-type > div:nth-of-type(12) {
+  background-position-x: 40.7%;
+}
+main > section:last-of-type > div:nth-of-type(13) {
+  background-position-x: 44.4%;
+}
+main > section:last-of-type > div:nth-of-type(14) {
+  background-position-x: 48.1%;
+}
+main > section:last-of-type > div:nth-of-type(15) {
+  background-position-x: 51.8%;
+}
+main > section:last-of-type > div:nth-of-type(16) {
+  background-position-x: 55.5%;
+}
+main > section:last-of-type > div:nth-of-type(17) {
+  background-position-x: 59.2%;
+}
+main > section:last-of-type > div:nth-of-type(18) {
+  background-position-x: 62.9%;
+}
+main > section:last-of-type > div:nth-of-type(19) {
+  background-position-x: 66.6%;
+}
+main > section:last-of-type > div:nth-of-type(20) {
+  background-position-x: 70.3%;
+}/*# sourceMappingURL=Sass3.css.map */
